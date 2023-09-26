@@ -40,7 +40,7 @@ const JobsList = () => {
 
   return (
     <div>
-      <table className="table"> {/* title={intl.formattedMessage{{id:'logoTitle'}}} */}
+      <table className="table"> 
         <thead className={intl.formatMessage({id:'table-dark'})}>  
           <tr>
             <th scope="col">#</th>
